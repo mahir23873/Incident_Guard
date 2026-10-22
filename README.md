@@ -24,13 +24,10 @@ In serious situations, like emergency-response paperwork, a silent mistake can c
 
 📝 Incident narrative (plain text)
           │
-          ▼
 🤖 Local LLM via Ollama  →  raw JSON
           │
-          ▼
 🛡️ Pydantic schema validation
           │
-          ▼
 📋 Report: ✅ valid fields | ❌ missing | ⚠️ invalid | 👻 unexpected
 
 ✨ Planned Features
