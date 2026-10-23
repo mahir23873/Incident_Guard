@@ -22,13 +22,10 @@ In serious situations, like emergency-response paperwork, a silent mistake can c
 
 ⚙️ How it works 
 
-📝 Incident narrative (plain text)
-          │
-🤖 Local LLM via Ollama  →  raw JSON
-          │
-🛡️ Pydantic schema validation
-          │
-📋 Report: ✅ valid fields | ❌ missing | ⚠️ invalid | 👻 unexpected
+1.📝 Incident narrative (plain text)
+2.🤖 Local LLM via Ollama  →  raw JSON
+3.🛡️ Pydantic schema validation
+4.📋 Report: ✅ valid fields | ❌ missing | ⚠️ invalid | 👻 unexpected
 
 ✨ Planned Features
 
@@ -43,3 +40,8 @@ In serious situations, like emergency-response paperwork, a silent mistake can c
 👻 Detect unexpected keys the model made up
 
 🧪 A test suite with fake incident narratives
+
+🤝 Contributing 
+Suggestions and ideas are welcome! Open an issue to discuss a change before sending a pull request. 💬
+
+⭐ If you find this project interesting, consider giving it a star! 
