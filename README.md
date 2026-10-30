@@ -20,13 +20,6 @@ In serious situations, like emergency-response paperwork, a silent mistake can c
 
 'incident-guard' sits between the AI and your final output and reports exactly what is wrong instead of quietly accepting it.
 
-⚙️ How it works 
-
-1.📝 Incident narrative (plain text)
-2.🤖 Local LLM via Ollama  →  raw JSON
-3.🛡️ Pydantic schema validation
-4.📋 Report: ✅ valid fields | ❌ missing | ⚠️ invalid | 👻 unexpected
-
 ✨ Planned Features
 
 🔌 Talk to a local Ollama model (no internet or paid API needed)
