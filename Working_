@@ -1,0 +1,9 @@
+⚙️ How it works
+
+📝 Incident narrative: You type a plain-English report, like "A brush fire was reported near Pune Road at 2:30 PM."
+
+🤖 Local LLM via Ollama → raw JSON: A local AI model reads the text and pulls out key details as JSON. No internet needed.
+
+🛡️ Pydantic schema validation: The JSON is checked against a strict schema. Every field must exist and have the right format.
+
+📋 Report: You get a clear verdict: ✅ valid fields, ❌ missing, ⚠️ invalid (like 31 February), or 👻 unexpected (made-up keys).
