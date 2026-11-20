@@ -1,0 +1,1 @@
+python main.py "On 7 March at 10:15 AM , a car fire was reported "
