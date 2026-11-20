@@ -4,7 +4,7 @@ def extract(narrative):
     prompt = (
         "Extract these fields from the incident report and reply with JSON only: "
         "incident_date, incident_time, location, units_responded, reporting_officer. "
-        "If a field is not in the text, use null.\n\n"
+        "Never guess or invent values." "If a field is not in the text, use null.\n\n"
         + narrative
     )
     response = ollama.chat(
