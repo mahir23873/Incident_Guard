@@ -6,7 +6,7 @@ incident-guard takes an incident report written in plain English and asks a loca
 
 It is an independent learning project that explores one narrow question: can we trust what an LLM extracts?
 
-## Why it exists
+## Why it exists 
 
 Language models read messy text well, but they can:
 
