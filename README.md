@@ -2,11 +2,11 @@
 
 Extract details from an incident report with a local LLM, then check the result before trusting it.
 
-incident-guard takes an incident report written in plain English and asks a local model (Ollama, `qwen2.5:3b`) to pull out five key fields as JSON. It then validates that JSON and reports what is missing, invalid, or unexpected.
+incident-guard takes an incident report written in plain English and asks a local model (Ollama, qwen2.5:3b) to pull out five key fields as JSON. It then validates that JSON and reports what is missing, invalid, or unexpected.
 
-This is an independent learning project, inspired by [FireForm](https://github.com/fireform-core/FireForm), an open-source "report once, file everywhere" system for first responders. FireForm extracts incident data with a local LLM. incident-guard explores one narrow question: can we trust that extraction? It is not affiliated with FireForm.
+It is an independent learning project that explores one narrow question: can we trust what an LLM extracts?
 
-## Why it exists
+## Why it exists 
 
 Language models read messy text well, but they can:
 
